@@ -1,0 +1,51 @@
+* { box-sizing: border-bpx; }
+
+body {
+margin: 20px;
+padding: 20px;
+min-height: 100vh;
+display: grid;
+place-items: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: url(flores.jpg) no-repeat center center/cover fixed;
+color: #222
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 420px;
+    padding: 28px;
+    background: rgb(191, 212, 192);
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    font: inherit;
+    border-radius: 6px;
+}
+
+input { border: 1px solid #aaa; }
+
+button {
+    margin-top: 20px;
+    border: 0;
+    background: #c2507c;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover { background: #444; }
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
